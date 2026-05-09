@@ -23,7 +23,7 @@ This is a dynamic management website for the Internet Computing project. It uses
 ### Local Setup Using XAMPP
 1. Install and open XAMPP.
 2. Start Apache and MySQL.
-3. Copy this folder into: `C:\xampp\htdocs\course-registration`
+3. Copy this folder into: `E:\xampp\htdocs\loginsystem`
 4. Open phpMyAdmin: http://localhost/phpmyadmin
 5. Import SQL File.
 6. Open: http://localhost/course-registration
