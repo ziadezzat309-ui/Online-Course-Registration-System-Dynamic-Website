@@ -43,6 +43,7 @@ Open: http://localhost/course-registration
 
 Important Database Config
 The database connection is inside includes/config.php.
+
 For local XAMPP:
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'onlinecourse');
@@ -87,3 +88,6 @@ Deployment Links
 InfinityFree Live URL: [Pending]
 
 000webhost Live URL: [Pending]
+
+Screenshots
+Add screenshots of deployment steps inside the screenshots folder.
