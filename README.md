@@ -65,7 +65,7 @@ Replace these values with the database details provided in your hosting control 
 * **Upload** all files into the `htdocs` folder using Online File Manager.
 
 ### Deployment Links
-* **InfinityFree Live URL:** [https://technomindblog.lovestoblog.com/](https://technomindblog.lovestoblog.com/)
+* **InfinityFree Live URL:** [https://course-system-fcai.infinityfree.me//](https://course-system-fcai.infinityfree.me//)
 * **ByetHost Live URL:** [http://dynamicproject.byethost14.com/](http://dynamicproject.byethost14.com/)
 
 ### Screenshots
