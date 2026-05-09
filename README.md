@@ -29,7 +29,7 @@ This is a dynamic User Management and Login System for the Faculty of Computers 
 3. Copy the project folder into: `C:\xampp\htdocs\dynamic-login-system`
 4. Open phpMyAdmin: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 5. Import your `database.sql` file.
-6. Access the project: [http://localhost/dynamic-login-system](http://localhost/dynamic-login-system)
+6. Access the project: [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)
 
 ---
 
