@@ -42,6 +42,7 @@ define('DB_SERVER', 'localhost');
 define('DB_NAME', 'loginsystem');
 define('DB_USER', 'root');
 define('DB_PASS', '');
+```
 ### For Online Hosting (InfinityFree/ByetHost):
 Replace these values with the database details provided in your hosting control panel.
 
@@ -69,3 +70,5 @@ Replace these values with the database details provided in your hosting control 
 
 ### Screenshots
 * Screenshots of the deployment process, database setup, and the live website are located in the `screenshots` folder.
+
+ 
