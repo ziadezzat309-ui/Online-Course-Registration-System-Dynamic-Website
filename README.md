@@ -42,3 +42,30 @@ define('DB_SERVER', 'localhost');
 define('DB_NAME', 'loginsystem');
 define('DB_USER', 'root');
 define('DB_PASS', '');
+### For Online Hosting (InfinityFree/ByetHost):
+Replace these values with the database details provided in your hosting control panel.
+
+### InfinityFree Deployment
+* **Create** an InfinityFree account.
+* **Create** a free subdomain (e.g., `ziad-ezzat-web`).
+* **Open** the control panel and create a MySQL database.
+* **Open** phpMyAdmin and import `database.sql`.
+* **Edit** `config.php` using your InfinityFree database host, name, username, and password.
+* **Upload** all website files to the `htdocs` folder.
+
+### ByetHost Deployment (Second Hosting)
+* **Create** a ByetHost account and activate via email.
+* **Open** the VistaPanel control panel.
+* **Create** a MySQL database (e.g., `b14_41876932_loginsystem`).
+* **Import** `database.sql` using phpMyAdmin.
+* **Edit** `config.php` with ByetHost credentials:
+  * **Host:** `sql301.byethost14.com`
+  * **User:** `b14_41876932`
+* **Upload** all files into the `htdocs` folder using Online File Manager.
+
+### Deployment Links
+* **InfinityFree Live URL:** [https://technomindblog.lovestoblog.com/](https://technomindblog.lovestoblog.com/)
+* **ByetHost Live URL:** [http://dynamicproject.byethost14.com/](http://dynamicproject.byethost14.com/)
+
+### Screenshots
+* Screenshots of the deployment process, database setup, and the live website are located in the `screenshots` folder.
