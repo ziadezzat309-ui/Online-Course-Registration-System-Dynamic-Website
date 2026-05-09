@@ -26,7 +26,7 @@ This is a dynamic User Management and Login System for the Faculty of Computers 
 ## Local Setup Using XAMPP
 1. Install and open **XAMPP**.
 2. Start **Apache** and **MySQL**.
-3. Copy the project folder into: `C:\xampp\htdocs\dynamic-login-system`
+3. Copy the project folder into: `E:\Xampp\htdocs\loginsystem`
 4. Open phpMyAdmin: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 5. Import your `database.sql` file.
 6. Access the project: [http://localhost/loginsystem//](http://localhost/loginsystem//)
