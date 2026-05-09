@@ -48,7 +48,7 @@ Replace these values with the database details provided in your hosting control 
 
 ### InfinityFree Deployment
 * **Create** an InfinityFree account.
-* **Create** a free subdomain (e.g., `ziad-ezzat-web`).
+* **Create** a free subdomain (e.g., `course-system-fcai.infinityfree.me`).
 * **Open** the control panel and create a MySQL database.
 * **Open** phpMyAdmin and import `database.sql`.
 * **Edit** `config.php` using your InfinityFree database host, name, username, and password.
