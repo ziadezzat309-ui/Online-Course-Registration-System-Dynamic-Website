@@ -59,7 +59,7 @@ For InfinityFree or 000webhost, replace these values with the database details f
 7. Open your live URL and test the site.
 
 ### Deployment Links
-* InfinityFree Live URL: [Pending]
+* InfinityFree Live URL: [https://course-system-fcai.infinityfree.me/]
 * 000webhost Live URL: [Pending]
 
 ### Screenshots
