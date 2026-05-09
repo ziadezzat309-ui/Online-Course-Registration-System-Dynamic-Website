@@ -1,66 +1,44 @@
-# Course Registration System
+# Website 2 - Dynamic PHP & MySQL Login System
 
-### Purpose
-This is a dynamic management website for the Internet Computing project. It uses PHP and MySQL to manage student enrollments.
+## Purpose
+This is a dynamic User Management and Login System for the Faculty of Computers and Artificial Intelligence (FCAI) project. It uses PHP and MySQL to manage user registration, authentication, and profile management.
 
-### Technologies Used
-* PHP
-* MySQL
-* HTML
-* CSS
-* JS
-* InfinityFree Hosting
-* 000webhost Hosting
+---
 
-### Features
-* Secure login system
-* Student enrollment
-* Admin dashboard
-* Manage courses
-* Manage sessions
-* MySQL database connection
+## Technologies Used
+* **PHP** (Server-side scripting)
+* **MySQL** (Database management)
+* **HTML & CSS** (UI/UX Design)
+* **InfinityFree** (Main Hosting)
+* **ByetHost** (Second Hosting)
 
-### Local Setup Using XAMPP
-1. Install and open XAMPP.
-2. Start Apache and MySQL.
-3. Copy this folder into: `E:\xampp\htdocs\loginsystem`
-4. Open phpMyAdmin: http://localhost/phpmyadmin
-5. Import SQL File.
-6. Open: http://localhost/loginsystem/
+---
 
-### Important Database Config
-The database connection is inside `includes/config.php`.
+## Features
+* User Registration & Secure Login System
+* Password Recovery
+* Profile Management (View & Edit)
+* Secure Logout
+* Dynamic MySQL database connection
 
-For local XAMPP:
-* `define('DB_HOST', 'localhost');`
-* `define('DB_NAME', 'onlinecourse');`
-* `define('DB_USER', 'root');`
-* `define('DB_PASS', '');`
+---
 
-For InfinityFree or 000webhost, replace these values with the database details from the hosting control panel.
+## Local Setup Using XAMPP
+1. Install and open **XAMPP**.
+2. Start **Apache** and **MySQL**.
+3. Copy the project folder into: `C:\xampp\htdocs\dynamic-login-system`
+4. Open phpMyAdmin: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+5. Import your `database.sql` file.
+6. Access the project: [http://localhost/dynamic-login-system](http://localhost/dynamic-login-system)
 
-### InfinityFree Deployment
-1. Create an InfinityFree account.
-2. Create a free hosting account/subdomain.
-3. Open the control panel.
-4. Create a MySQL database.
-5. Open phpMyAdmin and import SQL File.
-6. Edit `config.php` using your hosting database host, name, username, and password.
-7. Upload all website files to the hosting folder, usually `htdocs`.
-8. Open your live URL and test the site.
+---
 
-### 000webhost Deployment
-1. Create a 000webhost free account.
-2. Create a free website name.
-3. Create a MySQL database from the control panel.
-4. Import SQL File using phpMyAdmin.
-5. Edit `config.php` with the 000webhost database credentials.
-6. Upload the website files using File Manager to `public_html`.
-7. Open your live URL and test the site.
+## Important Database Config
+The database connection is managed inside `config.php`.
 
-### Deployment Links
-* InfinityFree Live URL: [https://course-system-fcai.infinityfree.me/]
-* 000webhost Live URL: [Pending]
-
-### Screenshots
-Add screenshots of deployment steps inside the screenshots folder.
+### **For Local XAMPP:**
+```php
+define('DB_SERVER', 'localhost');
+define('DB_NAME', 'loginsystem');
+define('DB_USER', 'root');
+define('DB_PASS', '');
