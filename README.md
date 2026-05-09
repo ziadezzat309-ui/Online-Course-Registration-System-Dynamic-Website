@@ -26,7 +26,7 @@ This is a dynamic management website for the Internet Computing project. It uses
 3. Copy this folder into: `E:\xampp\htdocs\loginsystem`
 4. Open phpMyAdmin: http://localhost/phpmyadmin
 5. Import SQL File.
-6. Open: http://localhost/course-registration
+6. Open: http://localhost/loginsystem/
 
 ### Important Database Config
 The database connection is inside `includes/config.php`.
