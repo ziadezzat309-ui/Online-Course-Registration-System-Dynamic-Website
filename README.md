@@ -8,6 +8,7 @@ This is a dynamic management website for the Internet Computing project. It uses
 * MySQL
 * HTML
 * CSS
+* JS
 * InfinityFree Hosting
 * 000webhost Hosting
 
