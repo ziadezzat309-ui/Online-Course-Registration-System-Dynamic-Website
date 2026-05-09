@@ -1,93 +1,65 @@
-Course Registration System
-Purpose
+# Course Registration System
+
+### Purpose
 This is a dynamic management website for the Internet Computing project. It uses PHP and MySQL to manage student enrollments.
 
-Technologies Used
-PHP
+### Technologies Used
+* PHP
+* MySQL
+* HTML
+* CSS
+* InfinityFree Hosting
+* 000webhost Hosting
 
-MySQL
+### Features
+* Secure login system
+* Student enrollment
+* Admin dashboard
+* Manage courses
+* Manage sessions
+* MySQL database connection
 
-HTML
+### Local Setup Using XAMPP
+1. Install and open XAMPP.
+2. Start Apache and MySQL.
+3. Copy this folder into: `C:\xampp\htdocs\course-registration`
+4. Open phpMyAdmin: http://localhost/phpmyadmin
+5. Import SQL File.
+6. Open: http://localhost/course-registration
 
-CSS
-
-InfinityFree Hosting
-
-000webhost Hosting
-
-Features
-Secure login system
-
-Student enrollment
-
-Admin dashboard
-
-Manage courses
-
-Manage sessions
-
-MySQL database connection
-
-Local Setup Using XAMPP
-Install and open XAMPP.
-
-Start Apache and MySQL.
-
-Copy this folder into: C:\xampp\htdocs\course-registration
-
-Open phpMyAdmin: http://localhost/phpmyadmin
-
-Import SQL File.
-
-Open: http://localhost/course-registration
-
-Important Database Config
-The database connection is inside includes/config.php.
+### Important Database Config
+The database connection is inside `includes/config.php`.
 
 For local XAMPP:
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'onlinecourse');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+* `define('DB_HOST', 'localhost');`
+* `define('DB_NAME', 'onlinecourse');`
+* `define('DB_USER', 'root');`
+* `define('DB_PASS', '');`
 
 For InfinityFree or 000webhost, replace these values with the database details from the hosting control panel.
 
-InfinityFree Deployment
-Create an InfinityFree account.
+### InfinityFree Deployment
+1. Create an InfinityFree account.
+2. Create a free hosting account/subdomain.
+3. Open the control panel.
+4. Create a MySQL database.
+5. Open phpMyAdmin and import SQL File.
+6. Edit `config.php` using your hosting database host, name, username, and password.
+7. Upload all website files to the hosting folder, usually `htdocs`.
+8. Open your live URL and test the site.
 
-Create a free hosting account/subdomain.
+### 000webhost Deployment
+1. Create a 000webhost free account.
+2. Create a free website name.
+3. Create a MySQL database from the control panel.
+4. Import SQL File using phpMyAdmin.
+5. Edit `config.php` with the 000webhost database credentials.
+6. Upload the website files using File Manager to `public_html`.
+7. Open your live URL and test the site.
 
-Open the control panel.
+### Deployment Links
+* InfinityFree Live URL: [Pending]
+* 000webhost Live URL: [Pending]
 
-Create a MySQL database.
-
-Open phpMyAdmin and import SQL File.
-
-Edit config.php using your hosting database host, name, username, and password.
-
-Upload all website files to the hosting folder, usually htdocs.
-
-Open your live URL and test the site.
-
-000webhost Deployment
-Create a 000webhost free account.
-
-Create a free website name.
-
-Create a MySQL database from the control panel.
-
-Import SQL File using phpMyAdmin.
-
-Edit config.php with the 000webhost database credentials.
-
-Upload the website files using File Manager to public_html.
-
-Open your live URL and test the site.
-
-Deployment Links
-InfinityFree Live URL: [Pending]
-
-000webhost Live URL: [Pending]
-
-Screenshots
+### Screenshots
 Add screenshots of deployment steps inside the screenshots folder.
